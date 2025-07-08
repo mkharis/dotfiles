@@ -1,0 +1,2 @@
+unset LD_PRELOAD
+proot -r /data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/debian/ -0 -w / -b /dev -b /proc -b /sys -b /data/data/com.termux/files/usr/tmp /bin/language_server_linux_arm $@

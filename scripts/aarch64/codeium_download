@@ -1,0 +1,3 @@
+curl -L -O https://github.com/Exafunction/codeium/releases/download/language-server-v1.48.2/language_server_linux_arm
+chmod +x /root/language_server_linux_arm
+mv /root/language_server_linux_arm /bin/

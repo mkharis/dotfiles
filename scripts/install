@@ -1,0 +1,12 @@
+# run if cpu arch is aarch64
+if [ "$(uname -m)" = "aarch64" ]; then
+  . ~/dotfiles/scripts/install_aarch64
+
+# run if cpu arch is x86_64
+elif [ "$(uname -m)" = "x86_64" ]; then
+  . ~/dotfiles/scripts/install_x86_64
+
+# run if cpu arch is unknown
+else
+  echo "not supported"
+fi
