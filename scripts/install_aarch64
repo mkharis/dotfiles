@@ -6,6 +6,7 @@ pkg install -y bat \
                eza \
                fd \
                fzf \
+	       golang \
                lazygit \
                lua-language-server \
                neovim \
