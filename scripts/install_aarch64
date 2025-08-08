@@ -16,7 +16,6 @@ pkg install -y bat \
                python \
                rclone \
                ripgrep \
-               sqlite \
                stow \
                stylua \
                tmux \
