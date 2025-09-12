@@ -118,5 +118,4 @@ alias cat="bat"
 alias cd="z"
 alias ls="eza --icons=always"
 
-alias nvim-nvchad="NVIM_APPNAME=nvim-nvchad nvim"
-alias nvim-kickstart="NVIM_APPNAME=nvim-kickstart nvim"
+alias nvim-alt="NVIM_APPNAME=nvim-alt nvim"

@@ -35,8 +35,8 @@ ln -s ~/dotfiles/scripts/aarch64/codeium_download /data/data/com.termux/files/us
 proot-distro login debian
 
 # clone neovim configs
-rm -rf ~/.config/nvim-nvchad && git clone https://github.com/mkharis/NvChad-starter.git ~/.config/nvim-nvchad
-rm -rf ~/.config/nvim-kickstart && git clone https://github.com/mkharis/kickstart.nvim.git ~/.config/nvim-kickstart
+rm -rf ~/.config/nvim && git clone https://github.com/mkharis/NvChad-starter.git ~/.config/nvim
+rm -rf ~/.config/nvim-alt && git clone https://github.com/mkharis/kickstart.nvim.git ~/.config/nvim-alt
 
 # install oh-my-zsh
 rm -rf ~/.oh-my-zsh && sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
