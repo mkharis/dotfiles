@@ -1,2 +1,0 @@
-rm -rf ~/.tmp && mkdir ~/.tmp
-sed -i "s/\/tmp/\$HOME\/\.tmp/" ~/.tmux/plugins/tmux-continuum/scripts/continuum_save.sh
