@@ -13,7 +13,6 @@ sudo dnf -y install bat \
                     neovim \
                     nodejs \
                     php \
-                    rclone \
                     ripgrep \
                     stow \
                     tmux \
