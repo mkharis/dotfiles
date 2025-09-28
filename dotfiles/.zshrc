@@ -117,5 +117,3 @@ eval "$(zoxide init zsh)"
 alias cat="bat"
 alias cd="z"
 alias ls="eza --icons=always"
-
-alias nvim-alt="NVIM_APPNAME=nvim-alt nvim"
