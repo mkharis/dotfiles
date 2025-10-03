@@ -8,6 +8,7 @@ sudo dnf -y install bat \
                     fd-find \
                     fzf \
                     gcc \
+                    httpie \
                     lazygit \
                     neovim \
                     nodejs \
