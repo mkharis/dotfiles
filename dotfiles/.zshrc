@@ -1,5 +1,8 @@
 export TERM=xterm-256color
 
+autoload -U compinit
+compinit
+
 source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
