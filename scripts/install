@@ -19,27 +19,17 @@ sudo dnf -y install atuin \
                     starship \
                     stow \
                     tmux \
-                    zoxide
+                    zoxide \
+                    zsh \
+                    zsh-autosuggestions \
+                    zsh-syntax-highlighting
 
 # clone neovim configs
 rm -rf ~/.config/nvim && git clone https://github.com/mkharis/NvChad-starter.git ~/.config/nvim
 # rm -rf ~/.config/nvim && git clone https://github.com/mkharis/kickstart.nvim.git ~/.config/nvim
 
-# install oh-my-zsh
-rm -rf ~/.oh-my-zsh && sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
-# clone oh-my-zsh plugins
-rm -rf ~/.oh-my-zsh/custom/plugins/autoupdate && git clone https://github.com/TamCore/autoupdate-oh-my-zsh-plugins.git ~/.oh-my-zsh/custom/plugins/autoupdate
-rm -rf ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions && git clone https://github.com/zsh-users/zsh-autosuggestions.git ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
-rm -rf ~/.oh-my-zsh/custom/plugins/zsh-completions && git clone https://github.com/zsh-users/zsh-completions.git ~/.oh-my-zsh/custom/plugins/zsh-completions
-rm -rf ~/.oh-my-zsh/custom/plugins/zsh-history-substring-search && git clone https://github.com/zsh-users/zsh-history-substring-search.git ~/.oh-my-zsh/custom/plugins/zsh-history-substring-search
-rm -rf ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting && git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
-
 #clone tpm
 rm -rf ~/.tmux/plugins/tpm && git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-
-# remove .zshrc before stow
-rm -f ~/.zshrc
 
 # stow dotfiles
 cd ~/dotfiles
