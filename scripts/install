@@ -28,8 +28,14 @@ sudo dnf -y install atuin \
 rm -rf ~/.config/nvim && git clone https://github.com/mkharis/NvChad-starter.git ~/.config/nvim
 # rm -rf ~/.config/nvim && git clone https://github.com/mkharis/kickstart.nvim.git ~/.config/nvim
 
-#clone tpm
+# clone tpm
 rm -rf ~/.tmux/plugins/tpm && git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
+# change shell to zsh
+chsh -s /usr/bin/zsh
+
+# remove .zshrc before stow
+rm -f ~/.zshrc
 
 # stow dotfiles
 cd ~/dotfiles
