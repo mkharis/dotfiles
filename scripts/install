@@ -15,8 +15,7 @@ sudo dnf -y install bat \
                     ripgrep \
                     stow \
                     tmux \
-                    zoxide \
-                    zsh
+                    zoxide
 
 # clone neovim configs
 rm -rf ~/.config/nvim && git clone https://github.com/mkharis/NvChad-starter.git ~/.config/nvim
