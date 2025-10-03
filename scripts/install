@@ -2,7 +2,8 @@
 sudo dnf -y copr enable alternateved/eza
 sudo dnf -y copr enable atim/lazygit
 sudo dnf -y upgrade
-sudo dnf -y install bat \
+sudo dnf -y install atuin \
+                    bat \
                     composer \
                     eza \
                     fd-find \
