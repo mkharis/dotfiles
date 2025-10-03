@@ -12,8 +12,6 @@ sudo dnf -y install bat \
                     neovim \
                     nodejs \
                     php \
-                    php-gd \
-                    php-mysqlnd \
                     ripgrep \
                     stow \
                     tmux \
