@@ -1,6 +1,7 @@
 # install packages
 sudo dnf -y copr enable alternateved/eza
 sudo dnf -y copr enable atim/lazygit
+sudo dnf -y copr enable atim/starship
 sudo dnf -y upgrade
 sudo dnf -y install atuin \
                     bat \
@@ -15,6 +16,7 @@ sudo dnf -y install atuin \
                     nodejs \
                     php \
                     ripgrep \
+                    starship \
                     stow \
                     tmux \
                     zoxide
