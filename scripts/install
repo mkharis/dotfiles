@@ -1,28 +1,3 @@
-# install packages
-sudo dnf -y copr enable alternateved/eza
-sudo dnf -y copr enable atim/lazygit
-sudo dnf -y copr enable atim/starship
-sudo dnf -y upgrade
-sudo dnf -y install atuin \
-                    bat \
-                    composer \
-                    eza \
-                    fd-find \
-                    fzf \
-                    gcc \
-                    httpie \
-                    lazygit \
-                    neovim \
-                    nodejs \
-                    php \
-                    ripgrep \
-                    starship \
-                    stow \
-                    tmux \
-                    zoxide \
-                    zsh-autosuggestions \
-                    zsh-syntax-highlighting
-
 # clone neovim configs
 rm -rf ~/.config/nvim && git clone https://github.com/mkharis/NvChad-starter.git ~/.config/nvim
 # rm -rf ~/.config/nvim && git clone https://github.com/mkharis/kickstart.nvim.git ~/.config/nvim
