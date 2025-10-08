@@ -1,3 +1,8 @@
+#!/bin/bash
+
+# clone dotfiles
+rm -rf ~/dotfiles && git clone https://github.com/mkharis/dotfiles.git ~/dotfiles
+
 # clone neovim configs
 rm -rf ~/.config/nvim && git clone https://github.com/mkharis/NvChad-starter.git ~/.config/nvim
 # rm -rf ~/.config/nvim && git clone https://github.com/mkharis/kickstart.nvim.git ~/.config/nvim
