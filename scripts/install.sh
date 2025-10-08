@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # clone dotfiles
 rm -rf ~/dotfiles && git clone https://github.com/mkharis/dotfiles.git ~/dotfiles
@@ -8,7 +8,7 @@ rm -rf ~/.config/nvim && git clone https://github.com/mkharis/NvChad-starter.git
 # rm -rf ~/.config/nvim && git clone https://github.com/mkharis/kickstart.nvim.git ~/.config/nvim
 
 # clone tpm
-rm -rf ~/.tmux/plugins/tpm && git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+rm -rf ~/.tmux/plugins/tpm && git clone https://github.com/tmux-plugins/tpm.git ~/.tmux/plugins/tpm
 
 # install oh-my-zsh
 rm -rf ~/.oh-my-zsh && sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
