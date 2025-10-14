@@ -13,6 +13,9 @@ rm -rf ~/.tmux/plugins/tpm && git clone https://github.com/tmux-plugins/tpm.git 
 # install oh-my-zsh
 rm -rf ~/.oh-my-zsh && sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+# install linuxbrew
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
 # remove .zshrc before stow
 rm -f ~/.zshrc
 
