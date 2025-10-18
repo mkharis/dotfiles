@@ -13,8 +13,11 @@ rm -rf ~/.tmux/plugins/tpm && git clone https://github.com/tmux-plugins/tpm.git 
 # install oh-my-zsh
 rm -rf ~/.oh-my-zsh && sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-# install linuxbrew
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+# create directory for global npm packages
+rm -rf ~/.npm-global && mkdir ~/.npm-global
+
+# set global npm packages path
+npm config set prefix ~/.npm-global
 
 # remove .zshrc before stow
 rm -f ~/.zshrc
