@@ -113,6 +113,9 @@ eval "$(fzf --zsh)"
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"
 
-alias cat="bat"
+alias cat="bat --style=plain --pager=never"
 alias cd="z"
-alias ls="eza --icons=always"
+alias l.='eza -d --icons=always .*'
+alias l1='eza -1 --icons=always'
+alias ll='eza -l --icons=always --group-directories-first'
+alias ls='eza --icons=always'
