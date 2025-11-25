@@ -25,8 +25,3 @@ rm -f ~/.zshrc
 # stow dotfiles
 cd ~/dotfiles
 stow dotfiles
-
-# stow credentials if any
-if [ -d ~/.credentials ]; then
-    cd ~/.credentials && stow .
-fi
