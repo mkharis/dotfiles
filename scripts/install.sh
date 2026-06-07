@@ -5,7 +5,6 @@ rm -rf ~/dotfiles && git clone https://github.com/mkharis/dotfiles.git ~/dotfile
 
 # clone neovim configs
 rm -rf ~/.config/nvim && git clone https://github.com/mkharis/NvChad-starter.git ~/.config/nvim
-# rm -rf ~/.config/nvim && git clone https://github.com/mkharis/kickstart.nvim.git ~/.config/nvim
 
 # clone tpm
 rm -rf ~/.tmux/plugins/tpm && git clone https://github.com/tmux-plugins/tpm.git ~/.tmux/plugins/tpm
