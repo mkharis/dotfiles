@@ -22,6 +22,7 @@ brew install \
     starship \
     stow \
     tmux \
+    tree-sitter-cli \
     zoxide \
     zsh-autosuggestions \
     zsh-syntax-highlighting
