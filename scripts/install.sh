@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # clone dotfiles
-rm -rf ~/dotfiles && git clone https://github.com/mkharis/dotfiles.git ~/dotfiles
+rm -rf ~/.dotfiles && git clone https://github.com/mkharis/dotfiles.git ~/.dotfiles
 
 # clone neovim configs
 rm -rf ~/.config/nvim && git clone https://github.com/mkharis/NvChad-starter.git ~/.config/nvim
@@ -22,5 +22,5 @@ npm config set prefix ~/.npm-global
 rm -f ~/.zshrc
 
 # stow dotfiles
-cd ~/dotfiles
+cd ~/.dotfiles
 stow dotfiles
