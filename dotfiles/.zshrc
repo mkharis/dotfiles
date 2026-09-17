@@ -114,7 +114,6 @@ else
 fi
 
 eval "$(atuin init zsh)"
-eval "$(direnv hook zsh)"
 eval "$(fzf --zsh)"
 eval "$(starship init zsh)"
 eval "$(zoxide init zsh)"

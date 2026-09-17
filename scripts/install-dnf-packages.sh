@@ -11,7 +11,6 @@ dnf upgrade -y
 sudo dnf install -y \
     atuin \
     eza \
-    direnv \
     fd-find \
     fzf \
     gh \

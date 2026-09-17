@@ -9,7 +9,6 @@ brew install \
     atuin \
     bat \
     eza \
-    direnv \
     fd \
     fzf \
     gh \
