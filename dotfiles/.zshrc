@@ -105,13 +105,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-if [[ "$(uname)" == "Darwin" ]]; then
-    source $HOMEBREW_PREFIX/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-    source $HOMEBREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-else
-    source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-    source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-fi
+source $HOMEBREW_PREFIX/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source $HOMEBREW_PREFIX/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 eval "$(atuin init zsh)"
 eval "$(fzf --zsh)"
