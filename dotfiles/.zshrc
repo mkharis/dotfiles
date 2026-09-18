@@ -119,3 +119,11 @@ alias l.="eza -d --icons=always .*"
 alias l1="eza -1 --icons=always"
 alias ll="eza -l --icons=always --group-directories-first"
 alias ls="eza --icons=always"
+
+function y() {
+	local tmp cwd; tmp="$(mktemp -t "yazi-cwd.XXXXXX")"
+	command yazi "$@" --cwd-file="$tmp"
+	IFS= read -r -d '' cwd < "$tmp"
+	[ "$cwd" != "$PWD" ] && [ -d "$cwd" ] && builtin cd -- "$cwd" || builtin true
+	command rm -f -- "$tmp"
+}
