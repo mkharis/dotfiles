@@ -8,6 +8,8 @@ brew upgrade
 brew install \
     atuin \
     bat \
+    btop \
+    duf \
     eza \
     fd \
     ffmpeg-full \
@@ -17,6 +19,7 @@ brew install \
     imagemagick-full \
     jq \
     lazygit \
+    ncdu \
     neovim \
     node \
     poppler \
