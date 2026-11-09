@@ -9,6 +9,8 @@ brew install \
     atuin \
     bat \
     btop \
+    bun \
+    composer \
     duf \
     eza \
     fd \
@@ -31,6 +33,7 @@ brew install \
     stow \
     tmux \
     tree-sitter-cli \
+    uv \
     yazi \
     zoxide \
     zsh-autosuggestions \
