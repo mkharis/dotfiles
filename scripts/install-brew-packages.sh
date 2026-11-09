@@ -1,10 +1,10 @@
 #!/bin/sh
 
-# update Homebrew and upgrade packages
+# update Homebrew and upgrade installed packages
 brew update
 brew upgrade
 
-# install packages
+# install CLI tools, font, and media dependencies
 brew install \
     atuin \
     bat \
@@ -36,5 +36,5 @@ brew install \
     zsh-autosuggestions \
     zsh-syntax-highlighting
 
-# link ffmpeg-full and imagemagick-full for yazi
+# force-link ffmpeg-full and imagemagick-full so yazi can find them
 brew link ffmpeg-full imagemagick-full -f --overwrite
