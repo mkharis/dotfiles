@@ -6,7 +6,6 @@ brew upgrade
 
 # languages, runtimes, and package managers
 packages=(
-    bun                         # JavaScript runtime and package manager
     composer                    # PHP dependency manager
     node                        # JavaScript runtime
     python                      # Python runtime
