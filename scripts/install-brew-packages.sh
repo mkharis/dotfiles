@@ -8,7 +8,6 @@ brew upgrade
 packages=(
     composer                    # PHP dependency manager
     node                        # JavaScript runtime
-    python                      # Python runtime
     uv                          # Python package and virtualenv manager
 )
 
