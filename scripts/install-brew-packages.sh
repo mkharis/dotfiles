@@ -30,8 +30,6 @@ packages+=(
     tmux                        # terminal multiplexer
     tree-sitter-cli             # parser generator for editors
     zoxide                      # directory jumping
-    zsh-autosuggestions         # zsh autosuggestions
-    zsh-syntax-highlighting     # zsh syntax highlighting
 )
 
 # yazi and its dependencies
