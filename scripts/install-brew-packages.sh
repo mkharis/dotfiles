@@ -15,7 +15,7 @@ packages=(
 packages+=(
     atuin                       # shell history sync
     bat                         # cat with syntax highlighting
-    bottom                      # system monitor
+    btop                        # system monitor
     duf                         # disk usage viewer
     eza                         # ls replacement
     fd                          # file search
